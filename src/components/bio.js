@@ -14,9 +14,9 @@ import { rhythm } from '../utils/typography';
 function Bio() {
   const data = useStaticQuery(graphql`
     query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+      avatar: file(absolutePath: { regex: "/profile-pic.png/" }) {
         childImageSharp {
-          fixed(width: 50, height: 50) {
+          fixed(width: 60, height: 60) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -51,10 +51,11 @@ function Bio() {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in Canada
+        Personal blog by <strong>{author}</strong>
+        <br />I write buggy apps
       </p>
     </div>
   );
-};
+}
 
 export default Bio;
