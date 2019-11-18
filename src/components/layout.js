@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import { rhythm, scale } from '../utils/typography';
+import Footer from "./footer";
 
 function Layout(props) {
   const { location, title, children } = props;
@@ -61,7 +62,7 @@ function Layout(props) {
     >
       <header>{header}</header>
       <main>{children}</main>
-      <footer>© {new Date().getFullYear()}</footer>
+      <Footer/>
     </div>
   );
 }
