@@ -24,9 +24,6 @@ function Bio() {
       site {
         siteMetadata {
           author
-          social {
-            twitter
-          }
         }
       }
     }
