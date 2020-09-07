@@ -26,7 +26,7 @@ TextFormField(
 ```
 
 
-Then I created a function that surrounds the highlighted text in the text box witha  markdown syntax
+Then I created a function that surrounds the highlighted text in the text box with a  markdown syntax
 
 ```dart
   void _surroundTextSelection(String left, String right) {
@@ -45,7 +45,8 @@ Then I created a function that surrounds the highlighted text in the text box wi
     );
   }
   ```
-**left** is the characters on the left hand side. **right** is the characters on the right hand side. 
+
+**left** is the string on the left hand side. **right** is the string on the right hand side. 
 
 This is how bolding a text would look like: 
  ```dart
