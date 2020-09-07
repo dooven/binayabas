@@ -66,5 +66,5 @@ _surroundTextSelection('![](https://', ')'),
 You get the point. 
 
 
-Check the full code in this [repo](https://github.com/jointwt/goryon/blob/736a98631e4ce617c476ffc4d4f5f9a6575705ef/lib/screens/newtwt.dart#L81). That's all for now!
+Check out the full code in this [repo](https://github.com/jointwt/goryon/blob/736a98631e4ce617c476ffc4d4f5f9a6575705ef/lib/screens/newtwt.dart#L81). That's all for now!
 
